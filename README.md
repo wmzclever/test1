@@ -1,2 +1,2 @@
 # test1
-test for the first homework
+test for the software engineering homework
