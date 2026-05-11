@@ -1,0 +1,22 @@
+<Window x:Class="DesktopPet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Desktop Pet"
+        Width="220"
+        Height="220"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ShowInTaskbar="False"
+        Topmost="True"
+        ResizeMode="NoResize">
+    <Grid>
+        <Image x:Name="PetImage"
+               Stretch="Uniform"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               MouseLeftButtonDown="PetImage_MouseLeftButtonDown"
+               MouseLeftButtonUp="PetImage_MouseLeftButtonUp"
+               MouseMove="PetImage_MouseMove"/>
+    </Grid>
+</Window>
